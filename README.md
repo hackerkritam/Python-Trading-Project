@@ -4,21 +4,21 @@ A clean, production-ready Python trading bot for placing orders on Binance Futur
 
 ## Features
 
-- ✅ Place MARKET and LIMIT orders
-- ✅ Support for BUY and SELL sides
-- ✅ Comprehensive input validation
-- ✅ Structured logging to file and console
-- ✅ Clean error handling
-- ✅ Reusable client architecture
+-  Place MARKET and LIMIT orders
+-  Support for BUY and SELL sides
+-  Comprehensive input validation
+-  Structured logging to file and console
+-  Clean error handling
+-  Reusable client architecture
 
-## Setup
+ Setup
 
-### 1. Prerequisites
+ 1. Prerequisites
 
 - Python 3.8+
 - Binance Futures Testnet account ([Register here](https://testnet.binancefuture.com))
 
-### 2. Installation
+ 2. Installation
 
 ```bash
 # Clone the repository
@@ -29,7 +29,7 @@ cd trading_bot
 pip install -r requirements.txt
 ```
 
-### 3. Configuration
+3. Configuration
 
 Set your API credentials as environment variables:
 
@@ -51,9 +51,9 @@ export BINANCE_API_KEY=your_api_key_here
 export BINANCE_API_SECRET=your_api_secret_here
 ```
 
-## Usage
+ Usage
 
-### Basic Commands
+ Basic Commands
 
 Place a MARKET order:
 ```bash
